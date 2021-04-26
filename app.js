@@ -1,9 +1,9 @@
 (function () {
 'use strict';
-x="hello"  
+x="hello"
 angular.module('myFirstApp', [])
 
-.controller('MyFirstController', function () {
-
+.controller('MyFirstController', function ($scope) {
+  $scope.name="pooja";
 });
 })();
